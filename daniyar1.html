@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git и команды GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #5a5a5a;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        code {
+            background-color: #eaeaea;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Git и GitHub Flow</h1>
+    
+    <h2>1. Что такое GitHub Flow?</h2>
+    <p>GitHub Flow — это легкий процесс ветвления, предназначенный для эффективной командной работы.</p>
+    <p>Он используется для управления разработкой, где каждая новая задача или фича реализуется в отдельной ветке, которая в итоге сливается с основной (обычно <code>main</code>).</p>
+    
+    <h2>2. Что такое Git Rebase и Git Merge?</h2>
+    <p><b>Git Rebase:</b> Переписывает историю коммитов, добавляя изменения из одной ветки в другую последовательно.</p>
+    <p><b>Git Merge:</b> Объединяет изменения из разных веток, создавая новый коммит, который включает историю обоих веток.</p>
+
+    <h2>3. Git Fetch и Git Pull</h2>
+    <p><b>Git Fetch:</b> Загружает новые данные из удаленного репозитория, но не сливает их с текущей веткой.</p>
+    <p><b>Git Pull:</b> Одновременно выполняет <code>fetch</code> и <code>merge</code>, обновляя локальный репозиторий новыми изменениями из удаленного.</p>
+
+    <h2>4. Как использовать Git Fetch на GitHub?</h2>
+    <p>Выполни команду <code>git fetch</code>, чтобы скачать обновления с удаленного репозитория, не изменяя свой локальный код. Это полезно, если нужно проверить обновления перед слиянием их вручную.</p>
+</body>
+</html>
